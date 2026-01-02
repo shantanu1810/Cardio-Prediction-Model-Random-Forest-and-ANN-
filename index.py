@@ -65,7 +65,7 @@ with c1:
     with c2:
         st.write("Random Forest Model ----")
     with c3:
-        #st.page_link('pages/prediction_in_RF.py',label=':green-background[Random Forest Model]')
+        st.page_link('pages/prediction_in_RF.py',label=':green-background[Random Forest Model]')
         pass
     st.write("Ensemble Learning: The core idea is that a large number of relatively uncorrelated models (decision trees) operating as a committee will outperform any of the individual constituent models. In these model they use for classification.")
     st.write("Decision Trees: The foundational element of the random forest is the decision tree, which recursively splits the data based on features to make predictions. **Here 100 decision tree are used**.")
